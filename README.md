@@ -20,7 +20,7 @@ You can add the code directly to the project:
    public class ButtonExample : MonoBehaviour
    {
        // 2. Add the Button attribute to any field.
-		[Serializable UrlButton("https://github.com/bergheem/UrlButton")] string field; // 3. Add the url you want to open as attribute parameter
+		[Serializable, UrlButton("https://github.com/bergheem/UrlButton")] string field; // 3. Add the url you want to open as attribute parameter
 		// 4. Make sure the field is displayable in the inspector (Serializable or public)
    }
    ```
